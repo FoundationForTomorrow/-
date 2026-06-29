@@ -1,0 +1,41 @@
+<svg viewBox="0 0 768 768" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <!-- Background -->
+  <rect width="768" height="768" fill="#f5f0e8"/>
+  
+  <!-- Decorative light beams -->
+  <ellipse cx="384" cy="200" rx="280" ry="180" fill="#ffffff" opacity="0.4"/>
+  <ellipse cx="384" cy="550" rx="300" ry="150" fill="#e0f0f5" opacity="0.5"/>
+  
+  <!-- Sun rays -->
+  <g id="rays" transform="translate(384, 300)">
+    <path d="M 0,-140 Q 50,-120 60,-60" fill="#d4a574" stroke="none"/>
+    <path d="M 100,-100 Q 120,-70 100,0" fill="#d4a574" stroke="none"/>
+    <path d="M 140,-40 Q 130,0 100,40" fill="#d4a574" stroke="none"/>
+    <path d="M 100,100 Q 70,120 0,140" fill="#d4a574" stroke="none"/>
+    <path d="M 0,140 Q -70,120 -100,100" fill="#d4a574" stroke="none"/>
+    <path d="M -140,40 Q -130,0 -100,-40" fill="#d4a574" stroke="none"/>
+    <path d="M -100,-100 Q -120,-70 -100,0" fill="#d4a574" stroke="none"/>
+    <path d="M -60,-60 Q -50,-120 0,-140" fill="#d4a574" stroke="none"/>
+    <path d="M 70,-120 Q 90,-90 80,-40" fill="#e6b88a" stroke="none"/>
+    <path d="M 120,-60 Q 130,-20 110,30" fill="#e6b88a" stroke="none"/>
+    <path d="M 110,100 Q 85,115 40,130" fill="#e6b88a" stroke="none"/>
+    <path d="M 0,145 Q -40,130 -85,115" fill="#e6b88a" stroke="none"/>
+    <path d="M -110,100 Q -130,-20 -120,-60" fill="#e6b88a" stroke="none"/>
+    <path d="M -80,-40 Q -90,-90 -70,-120" fill="#e6b88a" stroke="none"/>
+  </g>
+  
+  <!-- Water wave sections -->
+  <g id="water">
+    <!-- Top water section -->
+    <path d="M 150,350 Q 200,330 250,340 T 350,320 T 450,340 T 550,320 T 650,340 L 650,450 Q 600,470 550,460 T 450,480 T 350,460 T 250,480 T 150,450 Z" fill="#0d6f7f" stroke="none"/>
+    
+    <!-- Bottom water section -->
+    <path d="M 120,480 Q 180,460 240,475 T 360,450 T 480,475 T 600,450 T 680,480 L 680,650 Q 600,680 500,660 T 350,680 T 200,660 T 100,650 Z" fill="#0a5a68" stroke="none"/>
+    
+    <!-- White wave dividers -->
+    <path d="M 140,350 Q 200,330 260,345 T 380,320 T 500,345 T 620,320" 
+          stroke="#ffffff" stroke-width="24" fill="none" stroke-linecap="round"/>
+    <path d="M 110,480 Q 170,460 230,478 T 350,455 T 470,478 T 590,455 T 670,480" 
+          stroke="#ffffff" stroke-width="20" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>
